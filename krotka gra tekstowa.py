@@ -61,7 +61,7 @@ print('A wiec wyobraź sobie ze jesteś w lesie, las jest ogromny! \n A ty stois
 
 time.sleep(1)
 
-print('W oddali widzisz niedzwiedzi...')
+print('W oddali widzisz niedzwiedzia...')
 time.sleep(1)
 exit = False
 counter = 0
