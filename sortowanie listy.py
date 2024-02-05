@@ -13,5 +13,5 @@ while True:
 #Sortowanie listy
 list.sort()
 #Wypisanie listy od góry do dołu pojedyńczo
-for w in lista:
+for w in list:
     print(w)
