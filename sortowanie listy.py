@@ -1,14 +1,17 @@
-# lista
-lista=[]
-# pętla nieskończona do pytania odnośnie produktów które potem sie doda
+'''
+    Program ma za zadanie posortowanie alfabetycznie wpisanych słów
+'''
+list=[]
+#Pętla nieskończona do pytania odnośnie produktów które potem sie doda
 while True:
     x=input('(0 żeby zakończyć)Dodaj słówko: ')
-    lista.append(x)
+    list.append(x)
+#Dzięki tej części, po wpisaniu '0', aby wyjść z pętli. Pętla zostanie przerwana i zostanie usunięty ostatni element, czyli '0'
     if x==str(0):
-        lista.pop()
+        list.pop()
         break
-# sortowanie listy
-lista.sort()
-# wypisanie listy od góry do dołu pojedyńczo
+#Sortowanie listy
+list.sort()
+#Wypisanie listy od góry do dołu pojedyńczo
 for w in lista:
     print(w)
