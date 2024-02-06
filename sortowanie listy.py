@@ -2,7 +2,7 @@
     Program ma za zadanie posortowanie alfabetycznie wpisanych słów
 '''
 list=[]
-# Pętla nieskończona do pytania odnośnie produktów które potem sie doda
+# Pętla nieskończona do pytania odnośnie słów, które potem sie doda
 while True:
     x=input('(0 żeby zakończyć)Dodaj słówko: ')
     list.append(x)
