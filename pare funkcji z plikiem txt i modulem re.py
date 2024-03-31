@@ -50,7 +50,7 @@ def remove_mail(mail_to_remove):
         print('Mail już został usunięty lub go w ogóle nie było :)')
 
 
-    #Przugotowane funkcję gotowe do użycia :)
+    #Przygotowane funkcję gotowe do użycia :)
 
 #add_mail('kacpi12@gmail.com')
 
