@@ -12,9 +12,9 @@ def encryption(text):
     list_cipher = []
 
     for i, char in enumerate(text, start=0):
-        # Sprawdzenie, czy znak jest literą
+        #Sprawdzenie, czy znak jest literą
         if char.isalpha():
-            # Sprawdzenie, czy to jest mała czy duża litera
+            #Sprawdzenie, czy to jest mała czy duża litera
             if char.islower():
                 # Szyfrowanie dla małej litery
                 if i % 2 == 0:
@@ -22,16 +22,16 @@ def encryption(text):
                 else:
                     list_cipher.append(chr((ord(char) - ord('a') + 2) % 26 + ord('a')))
             else:
-                # Szyfrowanie dla dużej litery
+                #Szyfrowanie dla dużej litery
                 if i % 2 == 0:
                     list_cipher.append(chr((ord(char) - ord('A') + 1) % 26 + ord('A')))
                 else:
                     list_cipher.append(chr((ord(char) - ord('A') + 2) % 26 + ord('A')))
         else:
-            # Zostawienie niezmienionych znaków, które nie są literami
+            #Zostawienie niezmienionych znaków, które nie są literami
             list_cipher.append(char)
 
-    # Połączenie zaszyfrowanych znaków w jeden tekst
+    #Połączenie zaszyfrowanych znaków w jeden tekst
     encrypted_text = ''.join(list_cipher)
     return encrypted_text
 
